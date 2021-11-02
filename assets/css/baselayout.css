@@ -1,6 +1,4 @@
-/* @import url("https://fonts.google.com/specimen/Spartan"); */
-
-@import url("https://fonts.googleapis.com/css2?family=Spartan&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
 
 *,
 ::before,
@@ -22,18 +20,18 @@
   --font-fam-spartan: "Spartan", sans-serif;
   --font-weight-400: 400;
   --font-weight-500: 500;
-  --font-weight700: 700;
+  --font-weight-700: 700;
 }
 
 html {
   font-size: var(--font-size-10);
-  background-color: var(--white);
 }
 
 body {
   font-size: 1.5rem;
-  color: var(--very-dark-magenta);
+  font-weight: var(--font-weight-400);
   font-family: "Spartan", sans-serif;
+  color: var(--very-dark-magenta);
 }
 
 .container {
@@ -41,44 +39,15 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  padding: 1.5rem;
 }
 
-.main_content {
-  display: flex;
-  flex-direction: column;
+footer {
+  font-size: 1.4rem;
   text-align: center;
-  border: 0.1rem solid red;
+  font-weight: var(--font-weight-500);
 }
 
-.about_container {
-  background-image: url("/assets/images/bg-pattern-top-mobile.svg"),
-    url("/assetss/images/bg-pattern-bottom-mobile.svg");
-  background-position: top 5rem left 2rem, 100%;
-  background-repeat: no-repeat;
-  background-size: 40rem, 100%;
-
-  display: flex;
-  flex-direction: column;
-  gap: 3rem;
-  border: 0.1rem solid rebeccapurple;
-}
-
-.about {
-  margin-top: 2rem;
-  display: flex;
-  flex-direction: column;
-  gap: 2.5rem;
-}
-
-.title {
-  padding: 3rem 3rem 0 3rem;
-  font-weight: var(--font-weight700);
-}
-
-.rating_container {
-  border: 0.1rem solid blue;
-}
-.customer_container {
-  border: 0.1rem solid blue;
+.attribution a {
+  color: var(--very-dark-magenta);
+  text-decoration: none;
 }

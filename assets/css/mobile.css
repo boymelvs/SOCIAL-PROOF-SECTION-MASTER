@@ -1,0 +1,93 @@
+/* (min-width:320px) and (max-width:480px) */
+
+.container {
+  padding: 0 1.5rem;
+}
+
+.main_content {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem; /* between .about_container and .customer_container */
+}
+
+.about_container {
+  background-image: url("/assets/images/bg-pattern-top-mobile.svg"),
+    url("/assetss/images/bg-pattern-bottom-mobile.svg");
+  background-position: top 0rem left 0rem, 100%;
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 5rem; /* between .about_services and .rating_container */
+  text-align: center;
+}
+
+.about_services {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem; /* between .title and . details */
+}
+
+.title {
+  padding: 3rem 3rem 0 3rem;
+  font-weight: var(--font-weight-700);
+}
+
+.details {
+  line-height: 2.5rem;
+}
+
+.rating {
+  margin-bottom: 2rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  background-color: var(--light-grayish-magenta);
+}
+
+.stars_container {
+  margin-bottom: 1rem;
+}
+
+.reviews,
+.report_guru,
+.best_tech {
+  font-weight: var(--font-weight-700);
+}
+
+/* ================ customer testimonial start here ================ */
+
+.bio_card {
+  color: var(--white);
+  background-color: var(--very-dark-magenta);
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  padding: 4rem;
+  text-align: left;
+}
+
+.profile_container {
+  display: flex;
+  gap: 2rem; /* between .profile_picture and .name */
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.profile_picture {
+  border-radius: 60%;
+}
+
+.name {
+  margin-bottom: 0.5rem;
+  font-weight: var(--font-weight-700);
+}
+
+.status {
+  color: var(--soft-pink);
+}
+
+.testimonial {
+  font-size: 1.2rem;
+  line-height: 2rem;
+}

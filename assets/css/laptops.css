@@ -1,0 +1,131 @@
+/* (min-width:769px) and (max-width:1024px) */
+
+.container {
+  /* to center main content */
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 3rem;
+}
+
+.main_content {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem; /* between .about_container and .customer_container */
+
+  background-image: url("../images/bg-pattern-top-desktop.svg"),
+    url("../images/bg-pattern-bottom-desktop.svg");
+  background-position: top 0rem left -60rem, top 10rem right -15rem;
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  padding: 5rem;
+  background-color: var(--white);
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+}
+
+.about_container {
+  display: flex;
+  gap: 5rem; /* between .about_services and .rating_container */
+  text-align: left;
+}
+
+.about_services {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem; /* between .title and . details */
+}
+
+.title {
+  font-weight: var(--font-weight-700);
+}
+
+.details {
+  line-height: 2.5rem;
+}
+
+.rating_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 42rem;
+  background-color: var(--light-grayish-magenta);
+}
+
+.rating.second_box {
+  margin-left: 5.4rem;
+}
+
+.rating.third_box {
+  margin-left: 10.8rem;
+}
+
+.stars_container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.reviews,
+.report_guru,
+.best_tech {
+  font-weight: var(--font-weight-700);
+}
+
+/* ================ customer testimonial start here ================ */
+
+.customer_container {
+  display: flex;
+  gap: 2rem;
+}
+
+.bio_card {
+  color: var(--white);
+  background-color: var(--very-dark-magenta);
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  padding: 4rem;
+  text-align: left;
+  height: 27rem;
+}
+
+.bio_card.second {
+  margin-top: 2rem;
+}
+
+.bio_card.third {
+  margin-top: 4rem;
+}
+
+.profile_container {
+  display: flex;
+  gap: 2rem; /* between .profile_picture and .name */
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.profile_picture {
+  border-radius: 60%;
+}
+
+.name {
+  margin-bottom: 0.5rem;
+  font-weight: var(--font-weight-700);
+}
+
+.status {
+  color: var(--soft-pink);
+}
+
+.testimonial {
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
