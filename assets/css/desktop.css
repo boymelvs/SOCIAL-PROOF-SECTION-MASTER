@@ -88,13 +88,13 @@
 }
 
 .bio_card {
-  color: var(--white);
-  background-color: var(--very-dark-magenta);
   border-radius: 1rem;
   margin-bottom: 2rem;
   padding: 4rem;
   text-align: left;
   height: 27rem;
+  color: var(--white);
+  background-color: var(--very-dark-magenta);
 }
 
 .bio_card.second {
