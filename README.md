@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Design FAQ accordion card component](./assets/design/desktop-design.jpg)
+![Design Social proof section](./assets/design/desktop-design.jpg)
 
 ### Links
 
